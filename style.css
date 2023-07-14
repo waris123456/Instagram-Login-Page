@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #a349a3;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.formContainer {
+    background-color: white;
+    width: 490px;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.lanSelect {
+    outline: none;
+    border: none;
+    color: rgb(157, 157, 157);
+    display: block;
+}
+
+.lanSelect option {
+    outline: none;
+    border: none;
+    color: rgb(157, 157, 157);
+}
+
+.logo {
+    width: 210px;
+    display: block;
+    margin: 30px 0px;
+}
+
+input {
+    display: block;
+    width: 400px;
+    height: 35px;
+    margin: 20px 0px;
+    border: 1px solid rgb(198, 198, 198);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    font-weight: 400;
+}
+
+input:focus{
+    background-color: rgb(247, 247, 247);
+}
+
+button {
+    width: 100%;
+    margin: 10px 0px;
+    height: 55px;
+    background-color: #3897f1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+}
+
+.facebookLogin {
+    background-color: #039be5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid rgb(226, 226, 226);
+    margin: 15px 0px;
+}
+
+.normalP{
+    color: rgb(157, 157, 157);
+    font-size: 14px;
+}
+
+b{
+    color: black;
+}
+
+.hello{
+    z-index: 999;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
